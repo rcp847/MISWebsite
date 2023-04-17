@@ -1,0 +1,111 @@
+body {
+    background-image: url("http://student.uncw.edu/rcp9098/MIS310/Images/drk.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Style for Website Banner */
+
+h1 {
+    text-align: right;
+    color: white;
+    font-size: 70px;
+    font-family: "Courier New", Courier, monospace;
+}
+
+/* Headers*/
+h3 {
+    color: black;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    background-color: #707070;
+}
+
+h2 {
+    color: white;
+    background-color: #707070;
+    font-size: 40px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+
+/* List Type */
+ul {
+    list-style-type: square;
+}
+
+
+/* Nav */
+nav {
+    color: black;
+    background-color: #C0C0C0;
+    opacity: 0.7;
+}
+nav a:hover {
+    background-color: #ADD8E6;
+}
+
+ header, nav, main, footer, h2, h3, img {
+    margin: 10px;
+    padding: 10px;
+}
+
+ /* Footer */
+ footer a:hover {
+    background-color: #ADD8E6;
+}
+
+ footer {
+    background-color: #C0C0C0;
+    opacity: 0.7;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+}
+
+/* grid format */
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 10px;
+}
+
+/* Assignments */
+#assignment{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+/* Exams */
+#exam{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+/* Website Ideas */
+#webIdea{
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+
+/* Title Format */
+#flex{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+/* About me textbox  */
+#aboutme{
+    text-align: center;
+    opacity: 0.7;
+
+}
+
+/* Picture of me  */
+#mepic{
+    height: 300px;
+    width: 250px;
+}

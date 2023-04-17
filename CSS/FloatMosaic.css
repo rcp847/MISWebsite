@@ -1,0 +1,63 @@
+
+.mosaic-a{
+float: left;
+margin: 0 10px 0 10px;
+}
+
+.mosaic-b{
+clear: right;
+float: left;
+margin: 0 10px 10px 0;
+
+}
+
+.mosaic-c{
+clear: right;
+float: left;
+margin: 0 10px 10px 0;
+}
+
+.mosaic-d{
+float: left;
+margin: 0 10px 10px 0;
+}
+
+.mosaic-e{
+float: left;
+margin: 0 10px 10px 10px;
+
+}
+
+.mosaic-f{
+float: left;
+margin: 0 10px 10px 0;
+
+}
+
+.mosaic-g{
+float: left;
+margin: 0 10px 10px 0;
+
+}
+
+.mosaic-h{
+margin: 0 10px 10px 0;
+
+}
+
+.mosaic-i{
+float: left;
+margin: 0 10px 10px 10px;
+
+}
+
+.mosaic-j{
+float: left;
+margin: 0 10px 10px 0;
+}
+
+.mosaic-k{
+float: left;
+margin: 0 10px 10px 0;
+}
+

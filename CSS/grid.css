@@ -1,0 +1,26 @@
+* { box-sizing: border-box; }
+
+.box{
+    width: 100px;
+    height: 100px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    grid-gap:20px;
+}
+
+.grid div { border: 2px solid red;}
+
+
+#b1 {background-color: red; }
+#b2 {background-color: green; }
+#b3 {background-color: blue; }
+#b4 {background-color: orange; }
+#b5 {background-color: silver; }
+#b6 {background-color: yellow; }
+#b7 {background-color: purple; }
+#b8 {background-color: teal; }
+#b9 {background-color: pink; }

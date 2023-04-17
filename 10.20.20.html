@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Flutter Kicks</title>
+    <link rel="stylesheet" href="CSS/form.css">
+</head>
+<body>
+    <h1> Intro to Forms </h1>
+        <form>
+            <fieldset>
+                <legend> Organized Form Parts</legend>
+
+            <fieldset>
+                <legend>  Personal Data </legend>
+                    <label for="name"> Enter your Name: <br>
+                        <input type="text" name="Name" id="Name" required>
+                    </label>
+                    <br><br>
+
+                    <label for="password">Enter your Favorite Passwords: <br>
+                        <input type="password" name="password" id="password" required minlength="6">
+                    </label>
+                    <br><br>
+
+                <label for="secret"> Deepest Secret: <br></label>
+                        <textarea name="secret" id="secret" placeholder="Type in your deepest secret"></textarea>
+
+            </fieldset>
+
+            <fieldset>
+                <legend> Spend Some Money </legend>
+
+                <label for="item"> Clothing item: <br>
+                    <select name="item" id="item">
+                        <option> Choose an Item </option>
+                        <option> Shirt </option>
+                        <option> Pants </option>
+                        <option> Jacket </option>
+                        <option> Hat </option>
+                    </select>
+                </label>
+                <br><br>
+                <label> Size: <br></label>
+                <label><input type="radio" name="size" value="S">Small</label><br>
+                <label><input type="radio" name="size" value="M">Medium</label><br>
+                <label><input type="radio" name="size" value="L">Large</label><br>
+                <label><input type="radio" name="size" value="Xl">XLarge</label><br>
+                <br>
+
+                <label for="Quantity"> Quanitity: <br>
+                    <input type="number" min="1" max="12" name="qty" id="Quantity">
+                </label>
+                <br><br>
+
+                <label for="date"> Desired Delivery: <br>
+                    <input type="date" name="date" id="date">
+                </label>
+                <br><br>
+
+                <label for="gift"> Check box for gift-wrapping:
+                    <input type="checkbox" name="gift" id="gift">
+                </label>
+                <br><br>
+
+                <input type="submit" name="submit" value="order">
+
+
+            </fieldset>
+            </fieldset>
+
+        </form>
+
+</body>
+</html>

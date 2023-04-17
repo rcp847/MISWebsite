@@ -1,0 +1,84 @@
+body{
+    background: #DDDDDD;
+}
+
+header{
+    grid-area: hd;
+    background: yellow;
+}
+
+nav{
+    grid-area: nv;
+    background: blue;
+}
+
+.article1{
+    grid-area: a1;
+    background: green;
+
+}
+
+.article2{
+    grid-area: a2;
+    background: orange;
+
+}
+
+footer{
+    grid-area: ft;
+    background: purple;
+
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: 50px;
+    grid-gap: 10px;
+    grid-template-areas:
+    "hd hd hd hd hd hd"
+    "nv a1 a1 a1 a2 a2"
+    "nv a1 a1 a1 a2 a2"
+    "nv a1 a1 a1 a2 a2"
+    "ft ft ft ft ft ft";
+}
+
+
+
+@media (max-width: 900px){
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: 50px;
+        grid-gap: 10px;
+        grid-template-areas:
+            "hd hd hd hd"
+            "nv nv nv nv"
+            "a1 a1 a2 a2"
+            "a1 a1 a2 a2"
+            "a1 a1 a2 a2"
+            "a1 a1 a2 a2"
+            "ft ft ft ft";
+    }
+}
+
+@media (max-width: 650px){
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 50px;
+        grid-gap: 10px;
+        grid-template-areas:
+            "hd hd"
+            "nv nv"
+            "a1 a1"
+            "a1 a1"
+            "a1 a1"
+            "a2 a2"
+            "a2 a2"
+            "a2 a2"
+            "ft ft";
+    }
+}
+
+

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gentle JS</title>
+</head>
+<body>
+<h1> Intro to JavaScript </h1>
+
+    <h3 align="center" >
+        <button onclick="switchPics();"> Switch </button>
+    </h3>
+
+    <script>
+        function switchPics() {
+            let myImg = document.getElementById("pic");
+             console.log(myImg);
+             console.log(myImg.src);
+             if (myImg.src.indexOf("cow") != -1) {
+                myImg.src = "Images/animal1.jpg";
+                document.querySelector("h2").innerText = "ANIMALS"
+             }
+
+             else {
+                myImg.src = "Images/cow.gif";
+                document.querySelector("h2").innerText = "COW"
+
+             }
+        }
+    </script>
+
+
+    <div>
+        <h2> COW </h2>
+        <img id="pic" src="Images/cow.gif" onmouseover="puffUp('pic');"
+                                            onmouseout="puffDown('pic');">
+
+    </div>
+
+
+    <script>
+        function puffUp(big){
+        console.log(big);
+        document.getElementById(big).style.transform = "scale(1.5)"
+        }
+
+        function puffDown(big) {
+        console.log(big);
+        document.getElementById(big).style.transform = "scale(1)"
+        }
+    </script>
+
+
+
+    <div>
+        <h3> Look at the console </h3>
+        <p id="text1"> I am <strong> excited </strong>about coding: <code> printf("Hello World") </code> </p>
+        <p onclick="console.log(document.getElementById('text1').innerHTML);" > Inner HTML </p>
+        <p onclick="console.log(document.getElementById('text1').innerText);" > Inner Text </p>
+        <p onclick="console.log(document.getElementById('text1').textContent);" > Text Content </p>
+
+
+    </div>
+
+</body>
+</html>

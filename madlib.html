@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Madlib</title>
+    <link rel="stylesheet" href="http://student.uncw.edu/rcp9098/MIS310/CSS/madlib.css">
+
+</head>
+<body>
+
+<h1>  The <span class="animal"> cow </span> at the <span class="place"> zoo </span> </h1>
+
+<p> Today I went to the <span class="place"> zoo </span>  . I saw a
+    <span class="animal" > cow </span> jumping up and down in a tree . He ran through a
+    <span class="adjective"> large </span> tunnel that led to an abandoned house.
+    I got hungry so I decided to get some <span class="food"> peanuts </span> I saw the <span class="animal">
+        cow </span> again, but this time riding a <span class="adjective"> large </span> tricycle.
+    After seeing the <span class="animal"> cow </span> for the second time, I realized I was still hungry and wanted to
+    get a snack.
+    I got a large scoop of ice cream and it made me feel full. Afterwards I had to chase our
+    bus to go back home. When I got home I told my mom about the <span class="animal"> cow </span> riding the
+    <span class="adjective">large </span> tricycle at the  <span class="place"> zoo </span> she did not believe me,
+    but yet again who would believe you if you told them that story.
+
+</p>
+
+<h2> Thank you for trying Richard's mad libs! </h2>
+
+<script>
+
+<!--Action Listeners-->
+
+    let A = document.getElementsByClassName("animal");
+    let AL = document.getElementsByClassName("animal").length;
+    for (var i=0; i<AL; i++)
+	    A[i].addEventListener("click", changeAnimal);
+
+
+
+	let P = document.getElementsByClassName("place");
+	let PL = document.getElementsByClassName("place").length;
+	for (var i=0; i<PL; i++)
+	    P[i].addEventListener("click", changePlace);
+
+
+
+	let F = document.getElementsByClassName("food");
+	let FL = document.getElementsByClassName("food").length;
+	for (var i=0; i<FL; i++)
+	    F[i].addEventListener("click", changeFood);
+
+
+
+	let ADJ = document.getElementsByClassName("adjective");
+	let ADJL = document.getElementsByClassName("adjective").length;
+	for (var i=0; i<ADJL; i++)
+	    ADJ[i].addEventListener("click", changeAdjective);
+
+<!-- Functions -->
+	function changeAnimal(){
+	A = document.getElementsByClassName("animal");
+	for (var i = 0; i< A.length; i++){
+	    A[i].innerText="wolf"
+	    }
+	}
+
+	function changePlace(){
+	P = document.getElementsByClassName("place");
+	for (var i = 0; i< P.length; i++){
+	    P[i].innerText="suppermarket"
+	    }
+	}
+
+	function changeFood(){
+	F = document.getElementsByClassName("food");
+	for (var i = 0; i< F.length; i++){
+	    F[i].innerText="tacos"
+	    }
+	}
+
+
+	function changeAdjective(){
+	A = document.getElementsByClassName("adjective");
+	for (var i = 0; i< A.length; i++){
+	    A[i].innerText="rusty"
+	    }
+	}
+
+
+</script>
+
+
+</body>
+</html>

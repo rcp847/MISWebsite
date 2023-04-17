@@ -1,0 +1,29 @@
+.animal1{
+    height: 400px;
+    width: 500px;
+    position: fixed;
+    top: 50px;
+    left: 50px;
+}
+
+.animal2{
+    height: 400px;
+    width: 500px;
+    position: fixed;
+    top: 50px;
+    right: 50px;
+}
+
+div {
+    text-align: justify;
+    position: absolute;
+    top: 50px;
+    left: 700px;
+}
+
+h2 {
+    background-color: grey;
+    position: sticky;
+    top: 100px;
+}
+

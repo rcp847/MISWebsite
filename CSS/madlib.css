@@ -1,0 +1,54 @@
+body{
+    background-color: #8B008B;
+}
+
+h1 {
+    color: black;
+    background-color: white;
+    font-size: 40px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    text-align: center;
+    margin: 50px;
+}
+
+h2 {
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    text-align: center;
+    margin: 50px;
+}
+
+p {
+    color: black;
+    background-color: white;
+    font-size: 30px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}
+
+.place{
+    text-decoration: underline;
+    color: blue;
+    font-weight: bold;
+}
+
+.animal{
+    text-decoration: underline;
+    color: blue;
+    font-weight: bold;
+}
+
+.food{
+    text-decoration: underline;
+    color: blue;
+    font-weight: bold;
+}
+
+.adjective{
+    text-decoration: underline;
+    color: blue;
+    font-weight: bold;
+}
